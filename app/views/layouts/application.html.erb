@@ -8,7 +8,13 @@
 </head>
 <body>
 <%= render "layouts/header" %>
+ <nav>
+    | <a href="/">HOME</a> | <a href="/tweets">VIEW ALL TWITS</a> | <a href="/tweets/new">NEW TWIT</a> |
+  </nav>
 <%= yield %>
+  <nav>
+    | <a href="/">HOME</a> | <a href="/tweets">VIEW ALL TWITS</a> | <a href="/tweets/new">NEW TWIT</a> |
+  </nav>
 <%= render "layouts/footer" %>
 </body>
 </html>
