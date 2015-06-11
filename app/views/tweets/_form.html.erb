@@ -1,3 +1,5 @@
+
+<div class="text_body_todo">
 <%= form_for(@tweet) do |f| %>
   <% if @tweet.errors.any? %>
     <div id="error_explanation">
@@ -15,3 +17,4 @@
     <%= f.submit %>
   </div>
 <% end %>
+</div>

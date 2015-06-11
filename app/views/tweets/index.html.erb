@@ -1,27 +1,27 @@
 <div class="text_body_heading">
 <p id="notice"><%= notice %></p>
 
-<h1>ALL THE TWITS</h1>
+  ALL THE TWITS
 
-<div class="text_body_todo">
+<div class="text_body_form">
 <table>
   <thead>
     <tr>
       <th colspan="3"></th>
     </tr>
   </thead>
-
   <tbody>
     <% @tweets.each do |tweet| %>
       <tr>
-        <td><%= link_to 'Show', tweet %></td>
-        <td><%= link_to 'Edit', edit_tweet_path(tweet) %></td>
-        <td><%= link_to 'Destroy', tweet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <p><td><%= link_to 'Show', tweet %></td></p>
+        <p><td><%= link_to 'Edit', edit_tweet_path(tweet) %></td></p>
+        <p><td><%= link_to 'Destroy', tweet, method: :delete, data: { confirm: 'Are you sure?' } %></td></p>
       </tr>
     <% end %>
   </tbody>
 </table>
 </div>
+
 
 <br>
 

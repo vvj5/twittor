@@ -65,6 +65,23 @@ nav {
   a:active {color:#333333; text-decoration: none;}
 }
 
+.text_body_form {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  a:link {color:#333333; text-decoration: none;}
+  a:visited {color:#555555; text-decoration: none;}
+  a:hover {background:red; color: white}
+  a:active {color:#333333; text-decoration: none;}
+}
+
 .body_box_outer {
   margin-top: 10px;
   background-color: #666666;
